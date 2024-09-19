@@ -1,0 +1,87 @@
+
+#product_center
+ { position: relative; 
+   
+	padding-top:15px
+	}
+#product_center .crsl-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#product_center .crsl-items:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.bocsptieubieu .phanduoi { margin-top: 5px }
+.bocsptieubieu:hover .nutchitiet { background-color: #f56a1f }
+.bocsptieubieu .nutchitiet a { color: white }
+.bocsptieubieu .nutchitiet {
+    font-size: 16px;
+    background-color: #3498db;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#product_center .crsl-items img {
+    height: 155px;
+    max-width: 100%;
+    width: auto;
+}
+.phanduoi a { color: #696969 }
+
+#product_center .previous {
+    left: 0;
+    background-position: 0 0;
+}
+#product_center .next {
+    right: 0;
+    background-position: 100% 0;
+}
+#product_center .crsl-item { margin-bottom: 0 }
+
+#product_center .next i {
+  position: absolute;
+    right: 0px;
+    z-index: 99999999;
+    font-size: 30px;
+    color: white;
+    background-color: #ccc;
+    /* border-radius: 40px; */
+    padding-left: 12px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+	    border-radius: 50%;
+}
+#product_center .previous i {
+    position: absolute;
+    right: 35px;
+    z-index: 99999999;
+    font-size: 30px;
+    color: white;
+    background-color: #ccc;
+    /* border-radius: 40px; */
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-bottom: 2px;
+	    border-radius: 50%;
+}
+#product_center .trang{
+    position: relative;
+    background-color: white;
+    width: 85px;
+    height: 32px;
+    float: right;
+    top: -20px;
+}
+#product_center .next i:hover ,#product_center .previous i:hover{
+background:#018fc9;
+}
+#product_center .previous,#product_center .next{
+opacity:1 !important;
+}
+.thanhngangne{
+background: url('../images/thanh_ngang.png') repeat-x top;
+}

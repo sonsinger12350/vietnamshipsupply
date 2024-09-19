@@ -1,0 +1,326 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC (contact@vinades.vn)
+ * @Copyright (C) 2016 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate Mon, 04 Apr 2011 06:38:53 GMT
+ */
+.div_pay_header {
+	padding: 4px;
+	background: #F4F4F4;
+	font-weight: bold;.item_tt img
+}
+.item_tt img {
+    width: 38% !important;
+    height: auto !important;
+}
+.div_pay_footer {
+	padding: 4px;
+	background: #F7F7F7;
+}
+
+.div_pay {
+	padding: 10px;
+	border: 1px solid #F7F7F7;
+	margin-bottom: 4px;
+}
+
+.div_pay_form {
+	padding: 4px;
+	margin-top: 4px;
+	background: #FFFEFB
+}
+
+.div_pay_form p span {
+	display: inline-block;
+	width: 120px
+}
+
+.div_pay_form textarea {
+	padding: 4px;
+	height: 80px;
+	font-size: 12px;
+	font-family: Arial
+}
+
+.pay_note {
+	font-weight: normal;
+	color: #FF0000;
+	background: #FFFFCC
+}
+
+.div_pay stong {
+	display: inline-table;
+	width: 32%;
+	text-align: center;
+}
+
+.div_pay stong img {
+	border: #FFFFFF 2px solid;
+}
+
+.div_pay stong img:hover {
+	cursor: pointer;
+	border: #FFC6E2 2px solid;
+}
+
+/*
+
+css baokim payment
+*/
+.payment_list #select_payment .method {
+	padding: 15px 0;
+	border-bottom: 1px #ccc dotted;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+
+.payment_list #select_payment .method:first-child {
+	border-top: 1px #ccc dotted;
+}
+
+.payment_list #select_payment .method:hover, .payment_list #select_payment .method:focus,
+	.payment_list #select_payment .method.selected {
+	/*background: #e7f4fc;*/
+	
+}
+
+.payment_list #select_payment .icon {
+	width: 50px;
+	height: auto;
+	float: left;
+	display: inline-block;
+}
+
+.payment_list #select_payment .icon img {
+	vertical-align: middle;
+	padding-left: 5px;
+}
+
+.payment_list #select_payment .info {
+	float: left;
+}
+
+.payment_list #select_payment .method .check_box {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.payment_list #select_payment .method .check_box {
+	width: 30px;
+	height: 30px;
+	background: url(../images/taikhoan/check_pay.jpg) 0 0 no-repeat;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.payment_list #select_payment .method .checked_box {
+	background: url(../images/taikhoan/checked_pay.jpg) 0 0 no-repeat
+		!important;
+}
+
+.title {
+	font-weight: bold;
+	padding-right: 10px;
+	display: block;
+	font-size: 13px;
+	color: #1db453;
+}
+
+.method .title {
+	color: inherit;
+}
+
+.desc {
+	padding-right: 10px;
+	display: block;
+	color: #777
+}
+
+.bank_list {
+	margin-top: 0px;
+	clear: both;
+}
+
+.bank_list #b_l li {
+	float: left;
+	width: 60px;
+	margin: 10px 10px 0px 0;
+	border-bottom: none;
+	padding: 0 !important;
+}
+
+.event, .tut {
+	height: 15px;
+	padding-left: 20px;
+	margin-top: 5px;
+	display: inline-block;
+	margin: 5px 5px 5px 0;
+}
+
+.event {
+	color: #da0000;
+	background: url(../images/taikhoan/event.png) left no-repeat;
+}
+
+.tut {
+	background: url(../images/taikhoan/tut.png) left no-repeat;
+}
+
+.bk_logo {
+	position: absolute;
+	top: 10px;
+	left: 310px;
+}
+
+.pm_submit {
+	width: 200px;
+	height: 40px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+}
+
+.pm_submit:hover {
+	
+}
+
+.submit {
+	margin: 20px 0 0;
+	width: 100%;
+	text-align: center;
+}
+
+.img-active {
+	border: 2px solid blue !important
+}
+
+.img-bank {
+	border: 2px solid white
+}
+
+div .selected {
+	background-color: #e8f4fb;
+}
+
+ul#bl li img {
+	padding: 3px 3px 3px 3px;
+}
+
+.payment-mode {
+	display: block;
+	margin: 15px 23px 0px 0px;
+	float: left
+}
+
+.desc-mode {
+	font-size: 13px;
+	font-weight: bold
+}
+
+#daykeep {
+	display: none;
+	margin-top: 10px;
+}
+
+.info1 {
+	display: none;
+}
+
+.row-fluid::before, .row-fluid::after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+
+.row-fluid::after {
+	clear: both;
+}
+
+.row-fluid::before, .row-fluid::after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+
+
+/*
+ngan luong pro css
+*/
+
+ul.bankList {
+	clear: both;
+	height: 202px;
+	width: 100%;
+}
+ul.bankList li {
+	list-style-position: outside;
+	list-style-type: none;
+	cursor: pointer;
+	float: left;
+	margin-right: 0;
+	padding: 5px 2px;
+	text-align: center;
+	width: 90px;
+}
+.list-content li {
+	list-style: none outside none;
+	margin: 0 0 10px;
+}
+
+.list-content li .boxContent {
+	display: none;
+	width: 100%;
+	border:1px solid #cccccc;
+	padding:10px; 
+}
+.list-content li.active .boxContent {
+	display: block;
+}
+.list-content li .boxContent ul {
+	height:280px;
+}
+
+i.VISA, i.MASTE, i.AMREX, i.JCB, i.VCB, i.TCB, i.MB, i.VIB, i.ICB, i.EXB, i.ACB, i.HDB, i.MSB, i.NVB, i.DAB, i.SHB, i.OJB, i.SEA, i.TPB, i.PGB, i.BIDV, i.AGB, i.SCB, i.VPB, i.VAB, i.GPB, i.SGB,i.NAB,i.BAB 
+{ width:80px; height:30px; display:block; background:url(https://www.nganluong.vn/webskins/skins/nganluong/checkout/version3/images/bank_logo.png) no-repeat;}
+i.MASTE { background-position:0px -31px}
+i.AMREX { background-position:0px -62px}
+i.JCB { background-position:0px -93px;}
+i.VCB { background-position:0px -124px;}
+i.TCB { background-position:0px -155px;}
+i.MB { background-position:0px -186px;}
+i.VIB { background-position:0px -217px;}
+i.ICB { background-position:0px -248px;}
+i.EXB { background-position:0px -279px;}
+i.ACB { background-position:0px -310px;}
+i.HDB { background-position:0px -341px;}
+i.MSB { background-position:0px -372px;}
+i.NVB { background-position:0px -403px;}
+i.DAB { background-position:0px -434px;}
+i.SHB { background-position:0px -465px;}
+i.OJB { background-position:0px -496px;}
+i.SEA { background-position:0px -527px;}
+i.TPB { background-position:0px -558px;}
+i.PGB { background-position:0px -589px;}
+i.BIDV { background-position:0px -620px;}
+i.AGB { background-position:0px -651px;}
+i.SCB { background-position:0px -682px;}
+i.VPB { background-position:0px -713px;}
+i.VAB { background-position:0px -744px;}
+i.GPB { background-position:0px -775px;}
+i.SGB { background-position:0px -806px;}
+i.NAB { background-position:0px -837px;}
+i.BAB { background-position:0px -868px;}
+
+ul.cardList li {
+	cursor: pointer;
+	float: left;
+	margin-right: 0;
+	padding: 5px 4px;
+	text-align: center;
+	width: 90px;
+}

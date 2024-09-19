@@ -1,0 +1,62 @@
+#contactButton{
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    max-height:100%;
+    width:350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index:1000;
+	display:none;
+}
+#contactButton .panel{
+    margin-bottom:0;
+    width:100%;
+    color:#333;
+    display:none
+}
+#contactButton .ctb{
+    position: fixed;
+    bottom: 0;
+    right:15px;
+    z-index:1000;
+    text-align:center;
+}
+#contactButton .ctb, #contactButton .panel{
+    border-radius: 5px 5px 0 0;
+}
+#contactButton .ctb em{
+    margin-right:3px;
+    font-size: 1.6em;
+    vertical-align:middle
+}
+@media (max-width:1199px) {
+    #contactButton .ctb{
+        right:70px;
+    }
+}
+@media (max-width:499px) {
+    #contactButton{
+        right:auto;
+        left:0;
+        width:90%
+    }
+}
+.full_name {
+    font-family: Robotobold;
+    font-size: 20px;
+}
+.name1 {
+    color: #018dc7;
+    font-family: Robotobold;
+    text-transform: capitalize;
+}
+.weight{
+font-family:Robotobold;
+}
+.tieude_welcom{
+font-size:28px;
+}
+.support_contactne .col-xs-24.col-sm-12.col-md-12 {
+    padding-left: 14%;
+}

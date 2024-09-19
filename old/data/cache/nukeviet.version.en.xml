@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cms>
+	<name><![CDATA[NukeViet 3.0]]></name>
+	<version><![CDATA[3.4.02]]></version>
+	<date><![CDATA[THU, 25 Oct 2012 15:00:00 GMT]]></date>
+	<message><![CDATA[NukeViet 3.4.02 là một phiên bản nhỏ, không chứa nhiều thay đổi mang tính cách mạng nhưng NukeViet 3.4.02 đánh dấu một dấu mốc quan trọng như việc kết thúc sử dụng công cụ quản lý code svn để chuyển sang git, tách rời và nâng cấp module Shops, tối ưu, nâng cao hiệu suất hoạt động của hệ thống.]]></message>
+	<link><![CDATA[http://forum.nukeviet.vn/viewtopic.php?f=3&amp;t=24965]]></link>
+	<updateable><![CDATA[]]></updateable>
+</cms>

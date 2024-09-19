@@ -1,0 +1,147 @@
+/* CSS Document */
+.fix_banner_right {
+  width: 90px !important;
+  height: 500px !important;
+  position: fixed !important;
+  top: 2px !important;
+  right: -93px !important;
+  display: block !important;
+  z-index: 9 !important;
+}
+#footerSlideContainer {
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  top: 30%;
+  z-index:9999999999;
+}
+#footerSlideButton {
+	background: url('../images/support-hide.png') 5px 50% no-repeat #f40909;
+	position: absolute;
+	width:50px;
+	height:50px;
+	border: none;
+	cursor: pointer;
+	right:315px;
+	border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#footerSlideContent {
+	width: 100%;
+	height: 0px;
+	background-color: #000;
+	color: #CCCCCC;
+	font-size: 0.8em;
+	border-top: none;
+	position: relative;
+}
+#footerSlideContent h3 {
+	font-size: 36px;
+	color: #9AC941;
+	margin: 10px 0 10px 0;
+}
+#footerSlideContent ul {
+	color: #EE8D40;
+	list-style-type: none;
+	line-height: 2em;
+}
+#footerSlideText {
+	padding: 10px 5px 5px 5px;
+	text-shadow: 1px 1px #FFFFFF;
+	font-size: 14px;
+	color: black;
+	background-color:#fff;
+	margin-left:56px;
+	width:260px;
+	border: 2px solid rgb(247, 106, 106);
+	padding-left:25px;
+}
+#footerSlideText .note{
+	position: relative;
+	left: 20px;
+	color: red;
+}
+#footerSlideText .line{
+	width: 95%;
+	margin: auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	background: url(../images/line.gif) repeat-x top center;
+	height: 2px;
+}
+#footerSlideText .titles{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #015FDD;
+	font-family: Robotobold;
+}
+#footerSlideText ul{
+	margin: 0px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding: 0px;
+	width: 244px;
+	list-style: none;
+}
+#footerSlideText ul li{
+	font-size: 12px;
+	color: #006795;
+	font-weight: bold;
+	list-style: none;
+	background: none;
+	margin-top: 8px;
+	padding: 0px;
+}
+#footerSlideText ul li .left{
+	width: 165px;
+	display: inline-block;
+}
+#footerSlideText ul li .right{
+	width: auto;
+	display: inline-block;
+}
+.hotline{
+	font-size: 18px;
+	color: #df2a2b;
+	  font-family: Robotobold;
+}
+
+#footerSlideText center{
+margin-bottom:10px;
+}
+.baondlienket .hotline img{
+margin:10px 5px 5px 0px;
+}
+.baondlienket .face img{
+margin:2px 10px 5px 0px;
+}
+.baondlienket .sky img{
+margin:5px 10px 5px 0px;
+}
+.baondlienket .yahoo img{
+margin:5px 10px 5px 0px;
+}
+.baondlienket .email img{
+margin:5px 10px 5px 0px;
+}
+.baondlienket{
+padding-left:10px;
+}
+.httt2{
+  text-indent: 10px;
+  color: red;
+  font-family: Robotobold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.httt2 img{
+margin-right:10px;
+}
+.baosupport {
+  border-top: 1px solid #ccc;
+  margin-right: 16px;
+  padding-top: 10px;
+}
+.bao_bophan{
+margin-bottom:20px;
+}

@@ -1,0 +1,4 @@
+[Wed, 12 Aug 2020 05:00:42 +0300] [154.187.71.68] [Notice(8): Undefined variable: html] [FILE: /modules/news/blocks/global.block_category_o.php] [LINE: 220]
+[Wed, 12 Aug 2020 05:00:42 +0300] [154.187.71.68] [Notice(8): Undefined variable: html] [FILE: /modules/news/blocks/global.block_category_o.php] [LINE: 154]
+[Wed, 12 Aug 2020 05:00:42 +0300] [154.187.71.68] [Notice(8): Undefined variable: html] [FILE: /modules/news/blocks/global.block_category_o.php] [LINE: 187]
+[Wed, 12 Aug 2020 05:00:42 +0300] [154.187.71.68] [Notice(8): Undefined variable: html] [FILE: /modules/news/blocks/global.block_category_o.php] [LINE: 240]

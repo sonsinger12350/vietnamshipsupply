@@ -1,0 +1,61 @@
+#slide_partner ul.partner {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+#slide_partner ul.partner li {
+    width: 135px;
+    float: left;
+    margin-left: 42px;
+}
+#slide_partner ul.partner li img {
+    width: auto;
+    border: none;
+    height: 80px;
+}
+#slide_partner a.prev,#slide_partner a.prev1 {
+    display: block;
+    position: absolute;
+    left: 5px;
+    font-size: 45px;
+    z-index: 9;
+	top:7px;
+}
+#slide_partner a.prev:hover { }
+#slide_partner a.next,#slide_partner a.next1 {
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    font-size: 45px;
+	top:7px;
+}
+#slide_partner a.next:hover { }
+.caroufredsel_wrapper { position: relative }
+.caroufredsel_wrapper12 { width: 100% !important;margin-left: 31px !important; }
+@media (max-width:1000px) { 
+  
+}
+div#partner1 {
+    left: 0px !important;
+    width: 100% !important;
+}
+#slide_partner1 ul.partner li img {
+	max-width:100%;
+    height: 126px;
+}
+#slide_partner ul.partner1 li {
+    width: 205px;
+    float: left;
+    margin-left: 10px;
+}
+#slide_partner1 ul.partner li img {
+    width: auto;
+    border: none;
+    height: 120px;
+}
+@media (min-width:767px) { 
+    .tuyendung_chinh a.prev1 { margin-top: 240px }
+    .tuyendung_chinh a.next1 { margin-top: 240px }
+}

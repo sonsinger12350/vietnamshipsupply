@@ -1,0 +1,39 @@
+.slider-caption{
+	position: absolute; 
+	right: 160px; 
+	top:60px; 
+	width:736px; 
+	height:90px; 
+	color: #fff; 
+	line-height: 60px; 
+	text-align: center; 
+	font-size:50px;
+}
+.des_baner {
+	font-size: 23px;
+	line-height: 25px;
+}
+.jssora20l, .jssora20r {
+	display: block !important;
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 999999;
+	color: #fff;
+	font-size: 50px;
+}
+.jssora20l:hover, .jssora20r:hover {
+    color:#ed1c24
+}
+span.jssora20l i {
+	position: relative;
+	top: -10px;
+	left: 15px;
+}
+span.jssora20r i {
+	position: relative;
+	top: -10px;
+	left: 19px;
+}

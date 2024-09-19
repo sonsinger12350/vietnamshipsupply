@@ -1,0 +1,151 @@
+.metismenu a{
+    color:#fff !important;
+    text-decoration: none !important;
+}
+
+.metismenu .arrow {
+    float:right;
+    margin-top:-33px;
+    margin-right:6px;
+    color:#fff;
+    cursor:pointer;
+    text-align:center;
+    width:28px;
+    line-height:28px;
+    text-align:center;
+    background:rgba(0,0,0,0);
+    border-radius:14px;
+    -webkit-border-radius:14px;
+    font-size:15px;
+}
+
+.metismenu .arrow:hover {
+    background:#018fc9;
+}
+
+.metismenu .fa.arrow:before {
+    content:" \f107 ";
+}
+
+.metismenu .active > .fa.arrow:before {
+    content:" \f106 ";
+}
+
+.metismenu .plus-times {
+    float:right;
+}
+
+.metismenu .fa.plus-times:before {
+    content:"\f067";
+}
+
+.metismenu .active > a > .fa.plus-times {
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+.metismenu .plus-minus {
+    float:right;
+}
+
+.metismenu .fa.plus-minus:before {
+    content:"\f067";
+}
+
+.metismenu .metismenu .active > a > .fa.plus-minus:before {
+    content:"\f068";
+}
+
+.metismenu .sidebar {
+    display:block;
+    float:left;
+    width:100%;
+    background:#333;
+}
+
+.metismenu .content {
+    display:block;
+    overflow:hidden;
+    width:auto;
+}
+
+.metismenu .sidebar-nav {
+    background:#018fc9;
+    background-repeat:repeat-x;
+    margin:0;
+}
+
+.metismenu .sidebar-nav ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.metismenu .sidebar-nav ul li,
+.sidebar-nav ul a {
+    display:block;
+}
+
+.metismenu .sidebar-nav ul a {
+    padding:10px 20px;
+    color:#fff;
+    border-top:1px solid white;
+    box-shadow:0 1px 0 rgba(255,255,255,0.05) inset;
+	
+}
+.metismenu .sidebar-nav>ul>li>a {
+text-transform: uppercase;
+}
+.metismenu .sidebar-nav ul li:hover,
+.metismenu .sidebar-nav ul li:focus,
+.metismenu .sidebar-nav ul li:active {
+    color:#fff;
+    text-decoration:none;
+    background-color:#422774;
+}
+
+.metismenu .sidebar-nav ul ul a {
+   padding: 10px 30px;
+    background-color: white;
+    color: black !important;
+    border-bottom: 1px dotted #ccc;
+}
+.metismenu .sidebar-nav ul ul li:last-child a {
+ border-bottom: none;
+}
+.metismenu .sidebar-nav ul ul a:hover,
+.metismenu .sidebar-nav ul ul a:focus,
+.metismenu .sidebar-nav ul ul a:active {
+        color: #0289c1 !important;
+    border-bottom: 1px solid #0082bd;
+    background-color: #e2fcfa;
+}
+.metismenu .sidebar-nav .fa-caret-right{
+    position: relative;
+    float: left;
+    top: 14px;
+    left: 5px;
+	color: #ccc;
+}
+.metismenu .sidebar-nav ul ul li:hover .cha_n{
+color:#0289c1 !important;
+}
+.metismenu .sidebar-nav ul ul ul li:hover .con_n{
+color:#0289c1 !important;
+}
+.metismenu .sidebar-nav-item {
+    padding-left:5px;
+}
+
+.metismenu .sidebar-nav-item-icon {
+    padding-right:5px;
+}
+.metismenu ul ul li .arrow{
+    background: #018fc9;
+}
+.metismenu ul ul ul li {
+text-indent:25px;
+}
