@@ -1,0 +1,123 @@
+.page-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 24px;
+}
+
+.page-content .categories {
+	width: 289px;
+}
+
+.page-content .categories .title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #dcdcdc;
+	border-radius: 4px 4px 0 0;
+	padding: 8px 16px;
+	text-transform: uppercase;
+	color: #1d1d1d;
+	font-weight: 700;
+	font-size: 15px;
+	background-color: #f8f8f8;
+}
+
+.page-content .categories .title p {
+	margin: 0;
+}
+
+.page-content .categories .list {
+	padding-left: 0px;
+	border: 1px solid #dcdcdc;
+	border-top: 0px;
+	border-radius: 0 0 4px 4px;
+}
+
+.page-content .categories .subitem .list {
+	border: 0px;
+}
+
+.page-content .categories .subitem .list.level-1:not(.active) {
+	display: none;
+}
+
+.page-content .categories .subitem .list.level-2:not(.active) {
+	display: none;
+}
+
+.page-content .categories .list .item .item-action {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 16px;
+	border-bottom: 1px solid #dcdcdc;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.page-content .categories .list .item .item-action.active i {
+	transform: rotate(90deg);
+}
+
+.page-content .categories .subitem .list .item-action.level-1 {
+	padding-left: 36px;
+}
+
+.page-content .categories .subitem .list .item-action.level-2 {
+	padding-left: 56px;
+	border-bottom: 0px;
+}
+
+.page-content .products {
+	width: calc(100% - 320px);
+}
+
+.page-content .products .category-title {
+	font-weight: 600;
+    font-size: 25px;
+	color: #000;
+}
+
+.page-content .products .list {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.page-content .products .list .product {
+	width: 32%;
+	border: 1px solid #dcdcdc;
+    border-radius: 4px;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.page-content .products .list .product img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	object-position: center;
+	margin-bottom: auto;
+    margin-top: auto;
+}
+
+.page-content .products .list .product .info {
+	margin-top: 24px;
+}
+
+.page-content .products .list .product .title {
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.page-content .products .list .product .price {
+	font-weight: 700;
+	color: red;
+	font-size: 18px;
+	text-align: center;
+	margin: 0;
+}
