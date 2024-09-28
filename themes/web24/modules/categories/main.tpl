@@ -12,6 +12,9 @@
     <div class="products">
         <p class="category-title"></p>
         <div class="list"></div>
+        <div class="pagination">
+
+        </div>
     </div>
 </div>
 <!-- END: main -->

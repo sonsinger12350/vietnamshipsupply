@@ -488,3 +488,4 @@ $lang_module['select_content_download'] = 'Download document';
 $lang_module['select_content_comment'] = 'Comments';
 $lang_module['select_content_rate'] = 'Product Review';
 $lang_module['select_content_customdata'] = 'Custom data';
+$lang_module['product_in_stock'] = 'In stock';

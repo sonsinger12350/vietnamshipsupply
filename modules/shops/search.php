@@ -115,7 +115,7 @@ if ($num_items) {
         $catid = explode(',', $listcatid);
         $catid = end($catid);
 		
-		$image_link = NV_BASE_SITEURL . NV_UPLOADS_DIR . '/' . $m_values['module_name'] . '/' . $image ;
+		$image_link = $image ;
         $url = $link . $alias;
 
         $result_array[] = array(

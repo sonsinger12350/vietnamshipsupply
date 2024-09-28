@@ -505,3 +505,4 @@ $lang_module['order_yes_part_payment'] = 'Thanh toán tạm giữ';
 $lang_module['order_payment_cancel'] = 'Thanh toán đã bị hủy';
 $lang_module['payment_dathanhtoan'] = 'Đơn hàng đã thanh toán trước đó!';
 $lang_module['oder_shipping'] = 'Hình thức nhận hàng';
+$lang_module['product_in_stock'] = 'Còn hàng';

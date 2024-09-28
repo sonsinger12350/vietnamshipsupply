@@ -243,7 +243,7 @@
                     </table>
                     <!-- END: typepeice -->
                     <!-- BEGIN: product_empty -->
-					<strong>{LANG.product_empty}</strong>
+					<strong>{LANG.product_in_stock}</strong>
                     <button class="btn btn-danger hidden disabled">{LANG.product_empty}</button>
                     <!-- END: product_empty -->
                 </div>

@@ -75,7 +75,11 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	line-height: 60px;
-	padding: 0 30px;
+	padding: 0 20px;
+}
+
+.headerSearch-input {
+	width: 90%;
 }
 
 .wsmenu-list li a:hover .arrow:after {

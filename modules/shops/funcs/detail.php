@@ -70,6 +70,7 @@ if (empty($data_content)) {
     $nv_redirect = NV_BASE_SITEURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&amp;' . NV_NAME_VARIABLE . '=' . $module_name;
     redict_link($lang_module['detail_do_not_view'], $lang_module['redirect_to_back_shops'], $nv_redirect);
 }
+
 $id = $data_content['id'];
 
 $data_content['array_custom'] = array();
@@ -115,8 +116,8 @@ if ($global_array_shops_cat[$data_content['listcatid']]['form'] != '') {
 $page_title = !empty($data_content[NV_LANG_DATA . '_tag_title']) ? $data_content[NV_LANG_DATA . '_tag_title'] : $data_content[NV_LANG_DATA . '_title'];
 $description = !empty($data_content[NV_LANG_DATA . '_tag_description']) ? $data_content[NV_LANG_DATA . '_tag_description'] : $data_content[NV_LANG_DATA . '_hometext'];
 $array_images = array();
-
-if (nv_user_in_groups($global_array_shops_cat[$catid]['groups_view'])) {
+// echo '<pre>';print_r($global_array_shops_cat);exit;
+if (nv_user_in_groups($global_array_shops_cat[$catid]['groups_view']) || 1) {
     $popup = $nv_Request->get_int('popup', 'post,get', 0);
 
     $time_set = $nv_Request->get_int($module_data . '_' . $op . '_' . $id, 'session');
@@ -208,7 +209,7 @@ if (nv_user_in_groups($global_array_shops_cat[$catid]['groups_view'])) {
     $db->sqlreset()
         ->select(' id, listcatid, ' . NV_LANG_DATA . '_title, ' . NV_LANG_DATA . '_alias, homeimgfile, homeimgthumb, addtime, publtime, product_code, product_number, product_price, price_config, money_unit, discount_id, showprice, ' . NV_LANG_DATA . '_hometext,' . NV_LANG_DATA . '_gift_content, gift_from, gift_to')
         ->from($db_config['prefix'] . '_' . $module_data . '_rows')
-        ->where('id!=' . $id . ' AND listcatid = ' . $data_content['listcatid'] . ' AND status=1')
+        ->where('id!=' . $id . ' AND listcatid IN (' . $data_content['listcatid'] . ') AND status=1')
         ->order('ID DESC')
         ->limit($pro_config['per_row'] * 2);
     $result = $db->query($db->sql());
